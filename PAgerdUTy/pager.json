@@ -1,0 +1,372 @@
+{
+    "oncalls": [
+        {
+            "escalation_policy": {
+                "id": "POKA16W",
+                "type": "escalation_policy_reference",
+                "summary": "EIS-CLT-OnCall-policy",
+                "self": "https://api.pagerduty.com/escalation_policies/POKA16W",
+                "html_url": "https://tx-eis.pagerduty.com/escalation_policies/POKA16W"
+            },
+            "escalation_level": 2,
+            "schedule": {
+                "id": "P25XGH8",
+                "type": "schedule_reference",
+                "summary": "EIS-SOA-OnCall-schedule",
+                "self": "https://api.pagerduty.com/schedules/P25XGH8",
+                "html_url": "https://tx-eis.pagerduty.com/schedules/P25XGH8"
+            },
+            "user": {
+                "id": "PGCX2Y5",
+                "type": "user_reference",
+                "summary": "S�bastien Theintz",
+                "self": "https://api.pagerduty.com/users/PGCX2Y5",
+                "html_url": "https://tx-eis.pagerduty.com/users/PGCX2Y5"
+            },
+            "start": "2022-12-15T11:00:00Z",
+            "end": "2022-12-22T11:00:00Z"
+        },
+        {
+            "escalation_policy": {
+                "id": "PXEGEL3",
+                "type": "escalation_policy_reference",
+                "summary": "EIS-SOA-OnCall-policy",
+                "self": "https://api.pagerduty.com/escalation_policies/PXEGEL3",
+                "html_url": "https://tx-eis.pagerduty.com/escalation_policies/PXEGEL3"
+            },
+            "escalation_level": 1,
+            "schedule": {
+                "id": "P25XGH8",
+                "type": "schedule_reference",
+                "summary": "EIS-SOA-OnCall-schedule",
+                "self": "https://api.pagerduty.com/schedules/P25XGH8",
+                "html_url": "https://tx-eis.pagerduty.com/schedules/P25XGH8"
+            },
+            "user": {
+                "id": "PGCX2Y5",
+                "type": "user_reference",
+                "summary": "S�bastien Theintz",
+                "self": "https://api.pagerduty.com/users/PGCX2Y5",
+                "html_url": "https://tx-eis.pagerduty.com/users/PGCX2Y5"
+            },
+            "start": "2022-12-15T11:00:00Z",
+            "end": "2022-12-22T11:00:00Z"
+        },
+        {
+            "escalation_policy": {
+                "id": "POKA16W",
+                "type": "escalation_policy_reference",
+                "summary": "EIS-CLT-OnCall-policy",
+                "self": "https://api.pagerduty.com/escalation_policies/POKA16W",
+                "html_url": "https://tx-eis.pagerduty.com/escalation_policies/POKA16W"
+            },
+            "escalation_level": 1,
+            "schedule": {
+                "id": "PZ7RUF8",
+                "type": "schedule_reference",
+                "summary": "EIS-CLT-OnCall-schedule",
+                "self": "https://api.pagerduty.com/schedules/PZ7RUF8",
+                "html_url": "https://tx-eis.pagerduty.com/schedules/PZ7RUF8"
+            },
+            "user": {
+                "id": "PVHA0U2",
+                "type": "user_reference",
+                "summary": "Laurent Blanchoud",
+                "self": "https://api.pagerduty.com/users/PVHA0U2",
+                "html_url": "https://tx-eis.pagerduty.com/users/PVHA0U2"
+            },
+            "start": "2022-12-15T11:00:00Z",
+            "end": "2022-12-23T23:00:00Z"
+        },
+        {
+            "escalation_policy": {
+                "id": "PXEGEL3",
+                "type": "escalation_policy_reference",
+                "summary": "EIS-SOA-OnCall-policy",
+                "self": "https://api.pagerduty.com/escalation_policies/PXEGEL3",
+                "html_url": "https://tx-eis.pagerduty.com/escalation_policies/PXEGEL3"
+            },
+            "escalation_level": 2,
+            "schedule": {
+                "id": "PZ7RUF8",
+                "type": "schedule_reference",
+                "summary": "EIS-CLT-OnCall-schedule",
+                "self": "https://api.pagerduty.com/schedules/PZ7RUF8",
+                "html_url": "https://tx-eis.pagerduty.com/schedules/PZ7RUF8"
+            },
+            "user": {
+                "id": "PVHA0U2",
+                "type": "user_reference",
+                "summary": "Laurent Blanchoud",
+                "self": "https://api.pagerduty.com/users/PVHA0U2",
+                "html_url": "https://tx-eis.pagerduty.com/users/PVHA0U2"
+            },
+            "start": "2022-12-15T11:00:00Z",
+            "end": "2022-12-23T23:00:00Z"
+        },
+        {
+            "escalation_policy": {
+                "id": "POKA16W",
+                "type": "escalation_policy_reference",
+                "summary": "EIS-CLT-OnCall-policy",
+                "self": "https://api.pagerduty.com/escalation_policies/POKA16W",
+                "html_url": "https://tx-eis.pagerduty.com/escalation_policies/POKA16W"
+            },
+            "escalation_level": 2,
+            "schedule": {
+                "id": "P25XGH8",
+                "type": "schedule_reference",
+                "summary": "EIS-SOA-OnCall-schedule",
+                "self": "https://api.pagerduty.com/schedules/P25XGH8",
+                "html_url": "https://tx-eis.pagerduty.com/schedules/P25XGH8"
+            },
+            "user": {
+                "id": "P841G3T",
+                "type": "user_reference",
+                "summary": "Milija Blagojevic",
+                "self": "https://api.pagerduty.com/users/P841G3T",
+                "html_url": "https://tx-eis.pagerduty.com/users/P841G3T"
+            },
+            "start": "2022-12-22T11:00:00Z",
+            "end": "2022-12-29T11:00:00Z"
+        },
+        {
+            "escalation_policy": {
+                "id": "PXEGEL3",
+                "type": "escalation_policy_reference",
+                "summary": "EIS-SOA-OnCall-policy",
+                "self": "https://api.pagerduty.com/escalation_policies/PXEGEL3",
+                "html_url": "https://tx-eis.pagerduty.com/escalation_policies/PXEGEL3"
+            },
+            "escalation_level": 1,
+            "schedule": {
+                "id": "P25XGH8",
+                "type": "schedule_reference",
+                "summary": "EIS-SOA-OnCall-schedule",
+                "self": "https://api.pagerduty.com/schedules/P25XGH8",
+                "html_url": "https://tx-eis.pagerduty.com/schedules/P25XGH8"
+            },
+            "user": {
+                "id": "P841G3T",
+                "type": "user_reference",
+                "summary": "Milija Blagojevic",
+                "self": "https://api.pagerduty.com/users/P841G3T",
+                "html_url": "https://tx-eis.pagerduty.com/users/P841G3T"
+            },
+            "start": "2022-12-22T11:00:00Z",
+            "end": "2022-12-29T11:00:00Z"
+        },
+        {
+            "escalation_policy": {
+                "id": "POKA16W",
+                "type": "escalation_policy_reference",
+                "summary": "EIS-CLT-OnCall-policy",
+                "self": "https://api.pagerduty.com/escalation_policies/POKA16W",
+                "html_url": "https://tx-eis.pagerduty.com/escalation_policies/POKA16W"
+            },
+            "escalation_level": 1,
+            "schedule": {
+                "id": "PZ7RUF8",
+                "type": "schedule_reference",
+                "summary": "EIS-CLT-OnCall-schedule",
+                "self": "https://api.pagerduty.com/schedules/PZ7RUF8",
+                "html_url": "https://tx-eis.pagerduty.com/schedules/PZ7RUF8"
+            },
+            "user": {
+                "id": "PA2784V",
+                "type": "user_reference",
+                "summary": "Vladimir Mihajlovic",
+                "self": "https://api.pagerduty.com/users/PA2784V",
+                "html_url": "https://tx-eis.pagerduty.com/users/PA2784V"
+            },
+            "start": "2022-12-23T23:00:00Z",
+            "end": "2023-01-01T11:00:00Z"
+        },
+        {
+            "escalation_policy": {
+                "id": "PXEGEL3",
+                "type": "escalation_policy_reference",
+                "summary": "EIS-SOA-OnCall-policy",
+                "self": "https://api.pagerduty.com/escalation_policies/PXEGEL3",
+                "html_url": "https://tx-eis.pagerduty.com/escalation_policies/PXEGEL3"
+            },
+            "escalation_level": 2,
+            "schedule": {
+                "id": "PZ7RUF8",
+                "type": "schedule_reference",
+                "summary": "EIS-CLT-OnCall-schedule",
+                "self": "https://api.pagerduty.com/schedules/PZ7RUF8",
+                "html_url": "https://tx-eis.pagerduty.com/schedules/PZ7RUF8"
+            },
+            "user": {
+                "id": "PA2784V",
+                "type": "user_reference",
+                "summary": "Vladimir Mihajlovic",
+                "self": "https://api.pagerduty.com/users/PA2784V",
+                "html_url": "https://tx-eis.pagerduty.com/users/PA2784V"
+            },
+            "start": "2022-12-23T23:00:00Z",
+            "end": "2023-01-01T11:00:00Z"
+        },
+        {
+            "escalation_policy": {
+                "id": "POKA16W",
+                "type": "escalation_policy_reference",
+                "summary": "EIS-CLT-OnCall-policy",
+                "self": "https://api.pagerduty.com/escalation_policies/POKA16W",
+                "html_url": "https://tx-eis.pagerduty.com/escalation_policies/POKA16W"
+            },
+            "escalation_level": 2,
+            "schedule": {
+                "id": "P25XGH8",
+                "type": "schedule_reference",
+                "summary": "EIS-SOA-OnCall-schedule",
+                "self": "https://api.pagerduty.com/schedules/P25XGH8",
+                "html_url": "https://tx-eis.pagerduty.com/schedules/P25XGH8"
+            },
+            "user": {
+                "id": "PS8OMEC",
+                "type": "user_reference",
+                "summary": "Michael Feh�r",
+                "self": "https://api.pagerduty.com/users/PS8OMEC",
+                "html_url": "https://tx-eis.pagerduty.com/users/PS8OMEC"
+            },
+            "start": "2022-12-29T11:00:00Z",
+            "end": "2023-01-12T11:00:00Z"
+        },
+        {
+            "escalation_policy": {
+                "id": "PXEGEL3",
+                "type": "escalation_policy_reference",
+                "summary": "EIS-SOA-OnCall-policy",
+                "self": "https://api.pagerduty.com/escalation_policies/PXEGEL3",
+                "html_url": "https://tx-eis.pagerduty.com/escalation_policies/PXEGEL3"
+            },
+            "escalation_level": 1,
+            "schedule": {
+                "id": "P25XGH8",
+                "type": "schedule_reference",
+                "summary": "EIS-SOA-OnCall-schedule",
+                "self": "https://api.pagerduty.com/schedules/P25XGH8",
+                "html_url": "https://tx-eis.pagerduty.com/schedules/P25XGH8"
+            },
+            "user": {
+                "id": "PS8OMEC",
+                "type": "user_reference",
+                "summary": "Michael Feh�r",
+                "self": "https://api.pagerduty.com/users/PS8OMEC",
+                "html_url": "https://tx-eis.pagerduty.com/users/PS8OMEC"
+            },
+            "start": "2022-12-29T11:00:00Z",
+            "end": "2023-01-12T11:00:00Z"
+        },
+        {
+            "escalation_policy": {
+                "id": "POKA16W",
+                "type": "escalation_policy_reference",
+                "summary": "EIS-CLT-OnCall-policy",
+                "self": "https://api.pagerduty.com/escalation_policies/POKA16W",
+                "html_url": "https://tx-eis.pagerduty.com/escalation_policies/POKA16W"
+            },
+            "escalation_level": 1,
+            "schedule": {
+                "id": "PZ7RUF8",
+                "type": "schedule_reference",
+                "summary": "EIS-CLT-OnCall-schedule",
+                "self": "https://api.pagerduty.com/schedules/PZ7RUF8",
+                "html_url": "https://tx-eis.pagerduty.com/schedules/PZ7RUF8"
+            },
+            "user": {
+                "id": "PVHA0U2",
+                "type": "user_reference",
+                "summary": "Laurent Blanchoud",
+                "self": "https://api.pagerduty.com/users/PVHA0U2",
+                "html_url": "https://tx-eis.pagerduty.com/users/PVHA0U2"
+            },
+            "start": "2023-01-01T11:00:00Z",
+            "end": "2023-01-05T11:00:00Z"
+        },
+        {
+            "escalation_policy": {
+                "id": "PXEGEL3",
+                "type": "escalation_policy_reference",
+                "summary": "EIS-SOA-OnCall-policy",
+                "self": "https://api.pagerduty.com/escalation_policies/PXEGEL3",
+                "html_url": "https://tx-eis.pagerduty.com/escalation_policies/PXEGEL3"
+            },
+            "escalation_level": 2,
+            "schedule": {
+                "id": "PZ7RUF8",
+                "type": "schedule_reference",
+                "summary": "EIS-CLT-OnCall-schedule",
+                "self": "https://api.pagerduty.com/schedules/PZ7RUF8",
+                "html_url": "https://tx-eis.pagerduty.com/schedules/PZ7RUF8"
+            },
+            "user": {
+                "id": "PVHA0U2",
+                "type": "user_reference",
+                "summary": "Laurent Blanchoud",
+                "self": "https://api.pagerduty.com/users/PVHA0U2",
+                "html_url": "https://tx-eis.pagerduty.com/users/PVHA0U2"
+            },
+            "start": "2023-01-01T11:00:00Z",
+            "end": "2023-01-05T11:00:00Z"
+        },
+        {
+            "escalation_policy": {
+                "id": "POKA16W",
+                "type": "escalation_policy_reference",
+                "summary": "EIS-CLT-OnCall-policy",
+                "self": "https://api.pagerduty.com/escalation_policies/POKA16W",
+                "html_url": "https://tx-eis.pagerduty.com/escalation_policies/POKA16W"
+            },
+            "escalation_level": 1,
+            "schedule": {
+                "id": "PZ7RUF8",
+                "type": "schedule_reference",
+                "summary": "EIS-CLT-OnCall-schedule",
+                "self": "https://api.pagerduty.com/schedules/PZ7RUF8",
+                "html_url": "https://tx-eis.pagerduty.com/schedules/PZ7RUF8"
+            },
+            "user": {
+                "id": "PDBV8GI",
+                "type": "user_reference",
+                "summary": "Veselin Ilic",
+                "self": "https://api.pagerduty.com/users/PDBV8GI",
+                "html_url": "https://tx-eis.pagerduty.com/users/PDBV8GI"
+            },
+            "start": "2023-01-05T11:00:00Z",
+            "end": "2023-01-12T11:00:00Z"
+        },
+        {
+            "escalation_policy": {
+                "id": "PXEGEL3",
+                "type": "escalation_policy_reference",
+                "summary": "EIS-SOA-OnCall-policy",
+                "self": "https://api.pagerduty.com/escalation_policies/PXEGEL3",
+                "html_url": "https://tx-eis.pagerduty.com/escalation_policies/PXEGEL3"
+            },
+            "escalation_level": 2,
+            "schedule": {
+                "id": "PZ7RUF8",
+                "type": "schedule_reference",
+                "summary": "EIS-CLT-OnCall-schedule",
+                "self": "https://api.pagerduty.com/schedules/PZ7RUF8",
+                "html_url": "https://tx-eis.pagerduty.com/schedules/PZ7RUF8"
+            },
+            "user": {
+                "id": "PDBV8GI",
+                "type": "user_reference",
+                "summary": "Veselin Ilic",
+                "self": "https://api.pagerduty.com/users/PDBV8GI",
+                "html_url": "https://tx-eis.pagerduty.com/users/PDBV8GI"
+            },
+            "start": "2023-01-05T11:00:00Z",
+            "end": "2023-01-12T11:00:00Z"
+        }
+    ],
+    "limit": 25,
+    "offset": 0,
+    "more": False,
+    "total": None
+}
