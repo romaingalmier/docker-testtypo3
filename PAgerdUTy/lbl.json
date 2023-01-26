@@ -1,0 +1,112 @@
+{
+    "oncalls": [
+        {
+            "escalation_policy": {
+                "id": "POKA16W",
+                "type": "escalation_policy_reference",
+                "summary": "EIS-CLS-Back-OnCall-policy",
+                "self": "https://api.pagerduty.com/escalation_policies/POKA16W",
+                "html_url": "https://tx-eis.pagerduty.com/escalation_policies/POKA16W"
+            },
+            "escalation_level": 1,
+            "schedule": {
+                "id": "PZ7RUF8",
+                "type": "schedule_reference",
+                "summary": "EIS-CLS-Back-OnCall-schedule",
+                "self": "https://api.pagerduty.com/schedules/PZ7RUF8",
+                "html_url": "https://tx-eis.pagerduty.com/schedules/PZ7RUF8"
+            },
+            "user": {
+                "id": "PVHA0U2",
+                "type": "user_reference",
+                "summary": "Laurent Blanchoud",
+                "self": "https://api.pagerduty.com/users/PVHA0U2",
+                "html_url": "https://tx-eis.pagerduty.com/users/PVHA0U2"
+            },
+            "start": "2023-01-01T12:00:00+01:00",
+            "end": "2023-01-05T12:00:00+01:00"
+        },
+        {
+            "escalation_policy": {
+                "id": "PXEGEL3",
+                "type": "escalation_policy_reference",
+                "summary": "EIS-CLS-Front-OnCall-policy",
+                "self": "https://api.pagerduty.com/escalation_policies/PXEGEL3",
+                "html_url": "https://tx-eis.pagerduty.com/escalation_policies/PXEGEL3"
+            },
+            "escalation_level": 2,
+            "schedule": {
+                "id": "PZ7RUF8",
+                "type": "schedule_reference",
+                "summary": "EIS-CLS-Back-OnCall-schedule",
+                "self": "https://api.pagerduty.com/schedules/PZ7RUF8",
+                "html_url": "https://tx-eis.pagerduty.com/schedules/PZ7RUF8"
+            },
+            "user": {
+                "id": "PVHA0U2",
+                "type": "user_reference",
+                "summary": "Laurent Blanchoud",
+                "self": "https://api.pagerduty.com/users/PVHA0U2",
+                "html_url": "https://tx-eis.pagerduty.com/users/PVHA0U2"
+            },
+            "start": "2023-01-01T12:00:00+01:00",
+            "end": "2023-01-05T12:00:00+01:00"
+        },
+        {
+            "escalation_policy": {
+                "id": "POKA16W",
+                "type": "escalation_policy_reference",
+                "summary": "EIS-CLS-Back-OnCall-policy",
+                "self": "https://api.pagerduty.com/escalation_policies/POKA16W",
+                "html_url": "https://tx-eis.pagerduty.com/escalation_policies/POKA16W"
+            },
+            "escalation_level": 1,
+            "schedule": {
+                "id": "PZ7RUF8",
+                "type": "schedule_reference",
+                "summary": "EIS-CLS-Back-OnCall-schedule",
+                "self": "https://api.pagerduty.com/schedules/PZ7RUF8",
+                "html_url": "https://tx-eis.pagerduty.com/schedules/PZ7RUF8"
+            },
+            "user": {
+                "id": "PVHA0U2",
+                "type": "user_reference",
+                "summary": "Laurent Blanchoud",
+                "self": "https://api.pagerduty.com/users/PVHA0U2",
+                "html_url": "https://tx-eis.pagerduty.com/users/PVHA0U2"
+            },
+            "start": "2023-01-14T12:00:00+01:00",
+            "end": "2023-01-14T16:30:00+01:00"
+        },
+        {
+            "escalation_policy": {
+                "id": "PXEGEL3",
+                "type": "escalation_policy_reference",
+                "summary": "EIS-CLS-Front-OnCall-policy",
+                "self": "https://api.pagerduty.com/escalation_policies/PXEGEL3",
+                "html_url": "https://tx-eis.pagerduty.com/escalation_policies/PXEGEL3"
+            },
+            "escalation_level": 2,
+            "schedule": {
+                "id": "PZ7RUF8",
+                "type": "schedule_reference",
+                "summary": "EIS-CLS-Back-OnCall-schedule",
+                "self": "https://api.pagerduty.com/schedules/PZ7RUF8",
+                "html_url": "https://tx-eis.pagerduty.com/schedules/PZ7RUF8"
+            },
+            "user": {
+                "id": "PVHA0U2",
+                "type": "user_reference",
+                "summary": "Laurent Blanchoud",
+                "self": "https://api.pagerduty.com/users/PVHA0U2",
+                "html_url": "https://tx-eis.pagerduty.com/users/PVHA0U2"
+            },
+            "start": "2023-01-14T12:00:00+01:00",
+            "end": "2023-01-14T16:30:00+01:00"
+        }
+    ],
+    "limit": 25,
+    "offset": 0,
+    "more": false,
+    "total": null
+}

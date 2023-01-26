@@ -367,6 +367,6 @@
     ],
     "limit": 25,
     "offset": 0,
-    "more": False,
-    "total": None
+    "more": false,
+    "total": null
 }
