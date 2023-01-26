@@ -24,21 +24,22 @@ CHZH_holidays = holidays.country_holidays('CH', subdiv='ZH')
 RS_holidays = holidays.country_holidays('RS')
 CH_holidays = holidays.country_holidays('CH')
 
+pas = 1
+dayProportion = pas/24
 
 def defineDayType(startDate, endDate):
     weekDay = 0
     weekEndDay = 0
     publicHoliDay = 0
-    # print(startDate.weekday()==5 or startDate.weekday() ==6)
-    while (startDate + datetime.timedelta(hours=3) <= endDate ):
+    while (startDate + datetime.timedelta(hours=pas) <= endDate ):
         if (startDate in CHVD_holidays) :
-            publicHoliDay += 0.125
+            publicHoliDay += dayProportion
         elif(startDate.weekday() == 5 or startDate.weekday() == 6 ) :
-            weekEndDay += 0.125
+            weekEndDay += dayProportion
         else:
-            weekDay += 0.125
-        startDate = startDate + datetime.timedelta(hours=3)
-    return weekDay,weekEndDay,publicHoliDay
+            weekDay += dayProportion
+        startDate = startDate + datetime.timedelta(hours=pas)
+    return round(weekDay * 2) / 2,round(weekEndDay * 2) / 2,round(publicHoliDay * 2) / 2
 
 def list_oncalls():
     url = 'https://api.pagerduty.com/oncalls'
@@ -65,12 +66,23 @@ def list_oncalls():
     for el in r.json()["oncalls"] :
         dateD = datetime.datetime.fromisoformat(el["start"] )
         dateF = datetime.datetime.fromisoformat(el["end"] )
-        print(defineDayType(dateD,dateF))
 
-        dateDif = dateF-dateD
-        #dqte = datetime.datetime.strptime(f["oncalls"][0]["start"], '%Y-%m-%dT%H:%M:%S%Z')#r.json()
-        print(dateD)#.astimezone(ZoneInfo('America/New_York')).strftime('%I:%M %p')
-        print(dateF)#.astimezone(ZoneInfo('America/New_York')).strftime('%I:%M %p')
+        if (dateF.month != dateD.month):
+            newstartdate = datetime.date(dateF.year,dateF.month,1)
+            newstartdate = datetime.time(0,0,0)
+
+            defineDayType(dateD,newstartdate)
+            #TODO INSERT SQL
+            dateD = newstartdate
+
+        defineDayType(dateD,dateF)
+        #TODO INSERT SQL
+        # print(defineDayType(dateD,dateF))
+
+        # dateDif = dateF-dateD
+        # #dqte = datetime.datetime.strptime(f["oncalls"][0]["start"], '%Y-%m-%dT%H:%M:%S%Z')#r.json()
+        # print(dateD)#.astimezone(ZoneInfo('America/New_York')).strftime('%I:%M %p')
+        # print(dateF)#.astimezone(ZoneInfo('America/New_York')).strftime('%I:%M %p')
 
 if __name__ == '__main__':
     list_oncalls()
